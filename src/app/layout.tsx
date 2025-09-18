@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-    title: "IB 25-27 resources",
-    description: "Collated set of resources made for revision and as a general reference for the IB 2025-27 course",
+    title: "Quill",
+    description: "Collated set of resources made for revision and as a general reference for the IB 2025-27 course. May also be helpful for other A Level courses.",
 };
 
 export default function RootLayout({

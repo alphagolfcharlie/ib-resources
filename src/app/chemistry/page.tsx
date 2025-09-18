@@ -43,10 +43,10 @@ export default function PeriodicTable() {
         <div className="w-full max-w-7xl mx-auto p-4">
             {/* Header */}
             <div className="mb-8 text-center p-6">
-                <h1 className="text-4xl font-bold text-foreground mb-2">
-                    Interactive Periodic Table
+                <h1 className="p-2 text-4xl md:text-6xl font-bold bg-gradient-to-r from-purple-500 via-blue-500 to-green-400 bg-clip-text text-transparent animate-gradient">
+                    Periodic Table
                 </h1>
-                <p className="text-muted-foreground">
+                <p className="text-muted-foreground transition-all duration-300 hover:text-foreground hover:scale-105">
                     Hover over elements to explore their properties and electronic configurations
                 </p>
             </div>

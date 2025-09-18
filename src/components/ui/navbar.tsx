@@ -36,7 +36,7 @@ export function Navbar() {
                     </NavigationMenuItem>
                     <NavigationMenuItem>
                         <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
-                            <Link href="/">
+                            <Link href="/physics">
                                 <div className="font-medium flex items-center gap-2">
                                     <OrbitIcon className="w-4 h-4" />
                                     Physics

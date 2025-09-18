@@ -13,23 +13,35 @@ export default function PeriodicTable() {
         }
 
         elements.forEach((element) => {
-            // Skip lanthanides and actinides (Z=57–71, 89–103)
+            // Skip lanthanides except La (57), and actinides except Ac (89)
             if (
-                (element.atomicNumber >= 57 && element.atomicNumber <= 71) ||
-                (element.atomicNumber >= 89 && element.atomicNumber <= 103)
+                (element.atomicNumber >= 58 && element.atomicNumber <= 71) ||
+                (element.atomicNumber >= 90 && element.atomicNumber <= 103)
             ) {
                 return
             }
 
-            if (element.row <= 7 && element.col <= 18) {
-                grid[element.row - 1][element.col - 1] = element
+            let row = element.row
+            let col = element.col
+
+            // Force La and Ac into Group 3 positions
+            if (element.atomicNumber === 57) {
+                row = 6
+                col = 3
+            } else if (element.atomicNumber === 89) {
+                row = 7
+                col = 3
+            }
+
+            if (row <= 7 && col <= 18) {
+                grid[row - 1][col - 1] = element
             }
         })
 
         return grid
     }
 
-    // Extract lanthanides and actinides
+// Extract lanthanides and actinides (keeping La and Ac in main grid)
     const lanthanides = elements.filter(
         (el) => el.atomicNumber >= 57 && el.atomicNumber <= 71,
     )
@@ -40,7 +52,7 @@ export default function PeriodicTable() {
     const grid = createMainGrid()
 
     return (
-        <div className="w-full max-w-7xl mx-auto p-4">
+        <div className="w-full max-w-[1350px] mx-auto p-4">
             {/* Header */}
             <div className="mb-8 text-center p-6">
                 <h1 className="p-2 text-4xl md:text-6xl font-bold bg-gradient-to-r from-purple-500 via-blue-500 to-green-400 bg-clip-text text-transparent animate-gradient">

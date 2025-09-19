@@ -21,7 +21,7 @@ export function ElementCard({ element }: ElementCardProps) {
             "nonmetal": "bg-purple-50 border-purple-200 hover:bg-purple-100 text-purple-800 dark:bg-purple-800 dark:border-purple-600 dark:hover:bg-purple-700 dark:text-purple-50",
             "halogen": "bg-pink-50 border-pink-200 hover:bg-pink-100 text-pink-800 dark:bg-pink-800 dark:border-pink-600 dark:hover:bg-pink-700 dark:text-pink-50",
             "noble-gas": "bg-indigo-50 border-indigo-200 hover:bg-indigo-100 text-indigo-800 dark:bg-indigo-800 dark:border-indigo-600 dark:hover:bg-indigo-700 dark:text-indigo-50",
-            "lanthanide": "bg-amber-50 border-amber-200 hover:bg-amber-100 text-amber-800 dark:bg-amber-800 dark:border-amber-600 dark:hover:bg-amber-700 dark:text-amber-50",
+            "lanthanide": "bg-fuchsia-50 border-fuchsia-200 hover:bg-fuchsia-100 text-fuchsia-800 dark:bg-fuchsia-800 dark:border-fuchsia-600 dark:hover:bg-fuchsia-700 dark:text-fuchsia-50",
             "actinide": "bg-emerald-50 border-emerald-200 hover:bg-emerald-100 text-emerald-800 dark:bg-emerald-800 dark:border-emerald-600 dark:hover:bg-emerald-700 dark:text-emerald-50"
         };
         return colors[category] || "bg-card border-border hover:bg-muted";

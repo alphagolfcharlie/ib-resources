@@ -140,7 +140,7 @@ export default function PeriodicTable() {
                         <span>Noble Gases</span>
                     </div>
                     <div className="flex items-center gap-2">
-                        <div className="w-4 h-4 bg-amber-50 border-2 border-amber-200 rounded dark:bg-amber-800 dark:border-amber-600"></div>
+                        <div className="w-4 h-4 bg-fuchsia-50 border-2 border-fuchsia-200 rounded dark:bg-fuchsia-800 dark:border-fuchsia-600"></div>
                         <span>Lanthanides</span>
                     </div>
                     <div className="flex items-center gap-2">

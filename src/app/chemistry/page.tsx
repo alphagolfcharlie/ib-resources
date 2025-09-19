@@ -108,43 +108,43 @@ export default function PeriodicTable() {
                 </h2>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
                     <div className="flex items-center gap-2">
-                        <div className="w-4 h-4 bg-red-50 border-2 border-red-200 rounded"></div>
+                        <div className="w-4 h-4 bg-red-50 border-2 border-red-200 rounded dark:bg-red-800 dark:border-red-600"></div>
                         <span>Alkali Metals</span>
                     </div>
                     <div className="flex items-center gap-2">
-                        <div className="w-4 h-4 bg-orange-50 border-2 border-orange-200 rounded"></div>
+                        <div className="w-4 h-4 bg-orange-50 border-2 border-orange-200 rounded dark:bg-orange-800 dark:border-orange-600"></div>
                         <span>Alkaline Earth</span>
                     </div>
                     <div className="flex items-center gap-2">
-                        <div className="w-4 h-4 bg-blue-50 border-2 border-blue-200 rounded"></div>
+                        <div className="w-4 h-4 bg-blue-50 border-2 border-blue-200 rounded dark:bg-blue-800 dark:border-blue-600"></div>
                         <span>Transition Metals</span>
                     </div>
                     <div className="flex items-center gap-2">
-                        <div className="w-4 h-4 bg-rose-50 border-2 border-rose-200 rounded"></div>
+                        <div className="w-4 h-4 bg-rose-50 border-2 border-rose-200 rounded dark:bg-rose-800 dark:border-rose-600"></div>
                         <span>Post-transition</span>
                     </div>
                     <div className="flex items-center gap-2">
-                        <div className="w-4 h-4 bg-lime-50 border-2 border-lime-200 rounded"></div>
+                        <div className="w-4 h-4 bg-lime-50 border-2 border-lime-200 rounded dark:bg-lime-800 dark:border-lime-600"></div>
                         <span>Metalloids</span>
                     </div>
                     <div className="flex items-center gap-2">
-                        <div className="w-4 h-4 bg-purple-50 border-2 border-purple-200 rounded"></div>
+                        <div className="w-4 h-4 bg-purple-50 border-2 border-purple-200 rounded dark:bg-purple-800 dark:border-purple-600"></div>
                         <span>Nonmetals</span>
                     </div>
                     <div className="flex items-center gap-2">
-                        <div className="w-4 h-4 bg-pink-50 border-2 border-pink-200 rounded"></div>
+                        <div className="w-4 h-4 bg-pink-50 border-2 border-pink-200 rounded dark:bg-pink-800 dark:border-pink-600"></div>
                         <span>Halogens</span>
                     </div>
                     <div className="flex items-center gap-2">
-                        <div className="w-4 h-4 bg-indigo-50 border-2 border-indigo-200 rounded"></div>
+                        <div className="w-4 h-4 bg-indigo-50 border-2 border-indigo-200 rounded dark:bg-indigo-800 dark:border-indigo-800"></div>
                         <span>Noble Gases</span>
                     </div>
                     <div className="flex items-center gap-2">
-                        <div className="w-4 h-4 bg-amber-50 border-2 border-amber-200 rounded"></div>
+                        <div className="w-4 h-4 bg-amber-50 border-2 border-amber-200 rounded dark:bg-amber-800 dark:border-amber-600"></div>
                         <span>Lanthanides</span>
                     </div>
                     <div className="flex items-center gap-2">
-                        <div className="w-4 h-4 bg-emerald-50 border-2 border-emerald-200 rounded"></div>
+                        <div className="w-4 h-4 bg-emerald-50 border-2 border-emerald-200 rounded dark:bg-emerald-800 dark:border-emerald-600"></div>
                         <span>Actinides</span>
                     </div>
                     <div className="flex items-center gap-2">

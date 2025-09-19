@@ -1,5 +1,7 @@
 export default function PhysPage() {
-    return (
-        <h1>SUVAT calulator</h1>
+    return(
+        <div className="w-full">
+            <h1>Physics</h1>
+        </div>
     )
 }

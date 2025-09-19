@@ -2,6 +2,7 @@
 
 import { elements } from "@/lib/periodic-data"
 import { ElementCard } from "@/components/chemistry/element-card"
+import { AnimatedPage } from "@/components/transition";
 
 export default function PeriodicTable() {
     // Create a main grid (7 rows x 18 cols, excluding lanthanides & actinides)
@@ -52,6 +53,7 @@ export default function PeriodicTable() {
     const grid = createMainGrid()
 
     return (
+        <AnimatedPage>
         <div className="w-full max-w-[1350px] mx-auto p-4">
             {/* Header */}
             <div className="mb-8 text-center p-6">
@@ -154,5 +156,6 @@ export default function PeriodicTable() {
                 </div>
             </div>
         </div>
+        </AnimatedPage>
     )
 }
